@@ -14,6 +14,8 @@ console.log(pinkCrystalNumber);
 let randomNumber = Math.floor(Math.random()*100 +20);
 console.log(randomNumber);
 
+// get random number to display on screen for user to guess
+
 $(".random-number-display").text(randomNumber);
 
 // track wins, losses and total
@@ -33,8 +35,9 @@ function reset() {
     totalScore = 0;
     $(".random-number-display").text(randomNumber);
     $(".total-score-number").text(totalScore);
-    console.log(randomNumber);
-    console.log(totalScore);
+
+   // console.log(randomNumber);
+   // console.log(totalScore);
    // console.log("fsgs");
 }
 

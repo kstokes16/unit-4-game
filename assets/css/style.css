@@ -11,6 +11,18 @@ body {
     font-style: bold;
 }
 
+.game-instructions {
+    padding-bottom: 25px;
+}
+
 .container {
     color: white;
+}
+
+.blue, .green, .purple, .pink {
+    padding-right: 100px;
+}
+
+.blue:hover {
+opacity: 50%;
 }
